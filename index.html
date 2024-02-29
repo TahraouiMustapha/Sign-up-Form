@@ -6,6 +6,7 @@
     <title>Sign-up-Form | The Odin Projects</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/normalize.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -27,8 +28,6 @@
             </p>
         </div>
 
-
-
         <div class="right-side">
             <div class="intro">
                 <p>This is not a real online service!You know
@@ -45,15 +44,15 @@
                     
                     <div class="input-container">
                         <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" name="first-name" >
+                        <input type="text" id="first-name" name="first-name" autocomplete="given-name">
                     </div>
                     <div class="input-container">
                         <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" name="last-name">
+                        <input type="text" id="last-name" name="last-name" autocomplete="family-name">
                     </div>
                     <div class="input-container">
                         <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email" >
+                        <input type="email" id="email" name="email" autocomplete="email">
                     </div>
                     <div class="input-container">
                         <label for="number">PHONE NUMBER</label>
