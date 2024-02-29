@@ -22,7 +22,7 @@ a {
 }
 
 .container {
-    width: min(100vw, 1040px);
+    width: min(100vw, 1200px);
     height:100vh;
     display: flex;
 }
@@ -39,7 +39,7 @@ a {
 }
 
 .logo-area {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .5);
     width:100%;
     height:15vh;
 
@@ -90,6 +90,7 @@ a {
     background-color: white;
     width:100%;
     padding:1rem 2rem; 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, .1);
 }
 
 .lets-do-this  .title {
@@ -98,7 +99,67 @@ a {
     margin-bottom: 20px;
 }
 
+.lets-do-this .my-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;  
+    margin-right: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.input-container label {
+    font-size: .7em;
+    margin-bottom: 3px;
+}
+
+.input-container input {
+    border: 1px #E5E7EB solid;
+    border-radius: 5px;
+    height:1.9em;
+    padding: 8px;
+    outline: none;
+}
+
+input:focus {
+    border: 1px #86a9ee solid;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
+}
+
+input.error:invalid {
+    border: 1px red solid;
+}
+
+.invalid-password {
+    color:red;
+    display: none;
+}
+
+input.error:valid {
+    border: 1px green solid;
+}
+
 .create-account {
     padding:0 2rem; 
 }
+
+.btn-create {
+    background-color: #596D48;
+    color:white;
+    font-weight: 500;
+    border:none;
+    cursor: pointer;
+    box-shadow: 0 3px 8px  rgba(0, 0, 0, .2);
+    padding:12px 32px;
+    border-radius: 8px;    
+    margin-bottom: 2em;
+}
+
+.Log-in-link {
+    color:#596D48;
+}
+
 
