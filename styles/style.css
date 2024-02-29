@@ -1,0 +1,60 @@
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Odin;
+    src: url('../font\ for\ Odin\ logo/Norse-Bold.otf');
+}
+
+body {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color:white;
+}
+
+.container {
+    background-image: url('../images/jennifer-burk-SA00UxuXIHA-unsplash.jpg');
+    background-size: cover;
+    width: min(100vw, 1040px);
+    height:100vh;
+
+    display: flex;
+}
+
+.left-side {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Odin;
+    font-size: 4.5em;
+    color:white;
+
+    opacity: 0.6;
+    background-color: #111;
+    width:100%;
+    height:100px;
+}
+
+.logo {
+    width:80px;
+}
+
+
+
+
